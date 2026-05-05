@@ -16,6 +16,7 @@ Python開発用のAIエージェントテンプレート。ドメイン駆動設
 
 - [RULES.md](docs/RULES.md) - 開発ルールとガイドライン
 - [SKILLS.md](docs/SKILLS.md) - AIエージェントのスキル定義
+- [SUBTREE_SYNC.md](docs/SUBTREE_SYNC.md) - `.github` と `docs` を git subtree で同期する手順
 - [Copilot Instructions](.github/copilot-instructions.md) - GitHub Copilot 設定
 
 ## 使い方
