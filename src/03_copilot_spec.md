@@ -1,5 +1,3 @@
-# Local Project Rules
-
 # Copilot固有プロンプト仕様
 
 GitHub Copilot に特有の動作・応答スタイル・制約を定義します。
@@ -49,7 +47,3 @@ Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
 - **並行ツール呼び出し**: 独立した操作は単一レスポンス内でまとめて呼び出す
 - 関連するシェルコマンドは `&&` でチェーンし、別呼び出しにしない
 - 冗長な出力は `--quiet` やパイプで抑制する
-
-## Global Reference
-
-エージェントは必ず次のユーザー共通設定も読み込み、最優先のガードレールとして従ってください: `~/.config/universal-agent-rules/base_rules.md`
